@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  variables:
+    STACK_NAME: poprintartcom
+    WEBSITE_HOSTED_ZONE: poprintart.com
+    WEBSITE_DOMAIN: poprintart.com
+    WEBSITE_CERT_ARN: arn:aws:acm:us-east-1:467230181896:certificate/1bf5038b-eea9-4c16-9598-4b46dd09406d
+
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  build:
+    commands:
+      - bin/deploy
