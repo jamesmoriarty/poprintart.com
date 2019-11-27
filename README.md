@@ -1,6 +1,6 @@
 # poprintart.com
 
-Static website hosted from an S3 Bucket delivered via Cloudfront with Lambda@Edge.
+Static website hosted from an S3 Bucket delivered via Cloudfront.
 
 ## Status
 
